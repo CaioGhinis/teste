@@ -1,4 +1,5 @@
-/*FONTE GOOGLE*/
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 *{
   box-sizing: border-box;
@@ -7,7 +8,7 @@
 body{
   background-color: #160d18;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Secular One', sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -18,11 +19,16 @@ body{
   flex-direction: column;
 }
 
+/*Header*/
 header{
   background-color: #09456c;
   padding: 2.5rem;
-  display: flex;  
-  justify-content: center;
+  text-align: center;
+}
+
+h1{
+  margin-top: 6px;
+  margin-right: 10px;
 }
 
 .search{
@@ -38,7 +44,9 @@ header{
 .search:focus {
   outline: 0;
 }
+/*Fim do Header*/
 
+/*Movie container*/
 .movie-container{
  display: flex;
  flex-wrap: wrap; 
@@ -55,12 +63,14 @@ header{
   width: 300px;
 }
 
+/*Imagens*/
 .movie img{
   height: 450px;
   object-fit: cover;
   width: 100%;
 }
 
+/*Info (Título e nota)*/
 .movie-info{
   display: flex;
   align-items: center;
@@ -68,10 +78,13 @@ header{
   padding: 1.5rem;
 }
 
+/*Título*/
 .movie-info h3{
   margin: 0;
+  font-weight: inherit;
 }
 
+/*Overview*/
 .movie-overview{
   background-color: white;
   color: black;
@@ -94,18 +107,22 @@ header{
 .movie:hover .movie-overview{
   transform: translateY(0);
 }
+/*Fim do overview*/
 
+/*Tipo de mídia*/
 .media-type{
   background-color: #09456c;
   color: white;
   font-size: 20px;
-  
+  margin-top: 0;
+  font-weight: bold;
+  text-align: center;
 }
 
+/*Notas do filme*/
 .tag{
   background-color: #160d18;
   padding: 0.5rem;
-  font-weight: bold;
   border-radius: 5px;
 }
 
@@ -119,4 +136,31 @@ header{
 
 .tag.red{
   color: red;
+}
+
+/*Button Icons*/
+.icons{
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.button-icon{
+  cursor: pointer;
+  margin: 1rem 1.3rem;
+  font-size: 1.3rem;
+  background-color: #09456c;
+  padding: 0.7rem;
+  color: white;
+  border-radius: 3px;
+}
+
+/*Footer*/
+footer{
+  padding: 1.5rem;
+  text-align: center;
+}
+
+footer span{
+  color: #09456c;
 }

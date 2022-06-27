@@ -1,8 +1,9 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
 import Movie from './components/Movie';
+import Footer from './components/Footer';
 
-const FEARURED_API = 'https://api.themoviedb.org/3/trending/tv/day?api_key=3c2c0eac95fd821b262a551e574ffe6d'
+const FEATURED_API = 'https://api.themoviedb.org/3/trending/movie/day?api_key=3c2c0eac95fd821b262a551e574ffe6d'
 
 
 const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=3c2c0eac95fd821b262a551e574ffe6d&query='
@@ -14,7 +15,7 @@ function App() {
 
   useEffect(() => {
     
-    getMovies(FEARURED_API)
+    getMovies(FEATURED_API)
 
   }, [])
 
@@ -28,9 +29,8 @@ function App() {
     })
   }
 
-
-  const handleOnSubmit = (e) => {
-    e.preventDefault();
+  const handleOnChange = (e) => {
+    setSearchTerm(e.target.value)
 
     if (searchTerm) {
       getMovies(SEARCH_API + searchTerm)
@@ -40,20 +40,14 @@ function App() {
           console.log(data)
           setMovies(data.results)
         });
-
-      setSearchTerm('');
     }
-  }
-
-  const handleOnChange = (e) => {
-    setSearchTerm(e.target.value)
   }
 
   return (
     <>
       <header>
-        <h1>TOP 20 SÉRIES DO MOMENTO</h1>
-        <form onSubmit={handleOnSubmit}>
+        <h1>TOP 20 FILMES DO MOMENTO</h1>
+        <form>
           <input className='search' type="search" placeholder='Procurar...' value={searchTerm} onChange={handleOnChange} />
         </form>
       </header>
@@ -62,6 +56,7 @@ function App() {
           <Movie key={movie.id} {...movie} />
         )}
       </div>
+      <Footer/>
     </>
   );
 }
