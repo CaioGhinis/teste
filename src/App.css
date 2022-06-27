@@ -1,5 +1,6 @@
 /*Font*/
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
 
 *{
   box-sizing: border-box;
@@ -34,7 +35,7 @@ h1{
 .search{
   font-family: inherit;
   font-size: 1.5rem;
-  border: 2px solid #160d18;
+  border: 2px solid white;
   border-radius: 50px;
   background-color: transparent;
   color: white;
@@ -44,6 +45,12 @@ h1{
 .search:focus {
   outline: 0;
 }
+
+input::-webkit-input-placeholder{
+  color: white;
+  font-family: FontAwesome;
+}
+
 /*Fim do Header*/
 
 /*Movie container*/
@@ -107,6 +114,23 @@ h1{
 .movie:hover .movie-overview{
   transform: translateY(0);
 }
+
+/*Button Icons*/
+.icons{
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.button-icon{
+  cursor: pointer;
+  margin: 1rem 1.3rem;
+  font-size: 1.3rem;
+  background-color: #09456c;
+  padding: 0.7rem;
+  color: white;
+  border-radius: 3px;
+}
 /*Fim do overview*/
 
 /*Tipo de mídia*/
@@ -136,23 +160,6 @@ h1{
 
 .tag.red{
   color: red;
-}
-
-/*Button Icons*/
-.icons{
-  display: flex;
-  padding: 1rem;
-  justify-content: center;
-}
-
-.button-icon{
-  cursor: pointer;
-  margin: 1rem 1.3rem;
-  font-size: 1.3rem;
-  background-color: #09456c;
-  padding: 0.7rem;
-  color: white;
-  border-radius: 3px;
 }
 
 /*Footer*/

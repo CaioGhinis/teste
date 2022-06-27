@@ -29,7 +29,6 @@ const capitalizeFirst = media_type => {
 }
 };
 
-
 const Movie = ({poster_path, overview, media_type, vote_average, title}) => {
     return (
         <div className='movie'>
