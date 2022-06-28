@@ -21,13 +21,6 @@ Cada card de filme apresentará seu título, nota, imagem, e passando o mouse po
 ![img-card-2](https://user-images.githubusercontent.com/91136688/176198196-4bf62453-b700-405d-8d6e-c3e7e058bc66.jpg)
 #
 ### Status do Projeto
-Para rodar o projeto, basta seguir os seguintes passos em seu terminal:
-$ git clone https://github.com/CaioGhinis/teste-front-end-jr.git
-$ npm install
-$ npm start
-
-URL do projeto: https://projeto-caioghinis.netlify.app/
-
 <h3>
   :white_check_mark: Projeto finalizado :white_check_mark:
 </h3>  
@@ -43,7 +36,13 @@ URL do projeto: https://projeto-caioghinis.netlify.app/
 ![funcionalidade-2](https://user-images.githubusercontent.com/91136688/176206736-6fb654cd-e904-4b79-9ca2-0b5787b4b74b.gif)
 #
 ### Acesso ao Projeto
-
+Para rodar o projeto, basta seguir os seguintes passos em seu terminal:
+```
+$ git clone https://github.com/CaioGhinis/teste-front-end-jr.git
+$ npm install
+$ npm start
+```
+URL do projeto: https://projeto-caioghinis.netlify.app/
 #
 ### Tecnologias Utilizadas
 
