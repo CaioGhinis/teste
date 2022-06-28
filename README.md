@@ -1,70 +1,52 @@
-# TOP 20 FILMES EM ALTA
+<h1 align="center"> TOP 20 FILMES EM ALTA </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Capa do projeto](https://user-images.githubusercontent.com/91136688/176193441-8ac330b4-d5c8-4920-ae87-829ca6ff8a1e.jpg)
 
-## Available Scripts
+## Índice 
 
-In the project directory, you can run:
+* [Descrição do Projeto](#descrição-do-projeto)
+* [Status do Projeto](#status-do-projeto)
+* [Funcionalidades do Projeto](#funcionalidades-do-projeto)
+* [Acesso ao Projeto](#acesso-ao-projeto)
+* [Tecnologias utilizadas](#tecnologias-utilizadas)
+* [Pessoas Desenvolvedoras do Projeto](#pessoas-desenvolvedoras-do-projeto)
 
-### `npm start`
+## Descrição do projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Projeto feito em React para acessar a API 'Trending' do TMDB, na qual lista os 20 filmes em alta no momento. Também foram usadas as API´s 'Search' e 'Image', para gerar uma busca de filmes, e aparecer a imagem do filme, respectivamente. É possível filtrar os filmes por nome, e também apagar a busca do filtro. Foram utilizados métodos como 'toFixed' para arredondar as notas, e 'toUpperCase' para letras maíusculas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Cada card de filme apresentará seu título, nota, imagem, e passando o mouse por cima, uma sinopse do filme também será mostrada.
+#
+![img-card-1](https://user-images.githubusercontent.com/91136688/176197889-32ef1aae-3dd4-4057-9a3a-eb1057a16036.jpg)
+![img-card-2](https://user-images.githubusercontent.com/91136688/176198196-4bf62453-b700-405d-8d6e-c3e7e058bc66.jpg)
+#
+### Status do Projeto
 
-### `npm test`
+<h3>
+  :white_check_mark: Projeto finalizado :white_check_mark:
+</h3>  
+#
+### Funcionalidades do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `Funcionalidade 1`: Apresentar os filmes em alta
+#
+![funcionalidade-1](https://user-images.githubusercontent.com/91136688/176202626-be8d30f3-e435-43d7-bced-c2b54d5c2afe.gif)
+#
+- `Funcionalidade 2`: Filtro de busca, overview e apagar busca
+#
+![funcionalidade-2](https://user-images.githubusercontent.com/91136688/176206736-6fb654cd-e904-4b79-9ca2-0b5787b4b74b.gif)
+#
+### Acesso ao Projeto
 
-### `npm run build`
+#
+### Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React;
+- JavaScript;
+- CSS;
+- HTML.
+#
+## Pessoas Desenvolvedoras do Projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ### Autor
+  [<img src="https://user-images.githubusercontent.com/91136688/176210349-5dd55a12-aaad-4ac6-aadc-2f3119acbff1.png" width=150><br><sub>Caio Ghinis</sub>](https://caioghinis-portifolio.netlify.app/)
