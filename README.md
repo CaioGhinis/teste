@@ -24,7 +24,9 @@ Cada card de filme apresentará seu título, nota, imagem, e passando o mouse po
 <h3>
   :white_check_mark: Projeto finalizado :white_check_mark:
 </h3>  
-#
+
+##
+
 ### Funcionalidades do Projeto
 
 - `Funcionalidade 1`: Apresentar os filmes em alta
