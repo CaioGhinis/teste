@@ -15,11 +15,10 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('')
 
   useEffect(() => {
-    
-    getMovies(FEATURED_API)
-
     if (searchTerm) {
       getMovies(SEARCH_API + searchTerm);
+    } else{
+      getMovies(FEATURED_API)
     }
 
   }, [searchTerm])
